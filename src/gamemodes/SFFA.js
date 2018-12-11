@@ -246,7 +246,7 @@ SFFA.prototype.updateLB = function (gameServer) {
       } else {
         this.timer--;
       }
-gameServer.config.ejectvirus = Math.floor(Math.random() * 2) + 1 == 2;
+gameServer.config.ejectvirus = Math.floor(Math.random() * 6) + 1 == 6;
       break;
     case 2:
       lb[0] = "Players Alive";
